@@ -1,0 +1,91 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1567309258733-9bbe3672f827?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: darkblue;
+  padding-right: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4em;
+  z-index: 100;
+}
+
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 30px;
+}
+li {
+  list-style: none;
+}
+a {
+  color: snow;
+  text-decoration: none;
+  font-size: 40px;
+}
+h2 {
+  font-size: 70px;
+}
+.project-image {
+  width: 8em;
+}
+
+#profile-link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+.tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+ul {
+  width: 35em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#navbar a:hover {
+  background: red;
+}
+#welcome-section {
+  text-align: center;
+  margin-top: 15em;
+  height: 100vh;
+  background: snow;
+}
+#projects {
+  margin-top: 30em;
+  background: snow;
+}
+
+@media (max-width: 650px) {
+  #navbar {
+    justify-content: space-around;
+  }
+}
+#contact {
+  text-align: center;
+  background: darkblue;
+  color: snow;
+  margin-top: 30em;
+}
+.show {
+  font-size: 30px;
+  color: black;
+}
+
+.footer {
+  font-size: medium;
+}
